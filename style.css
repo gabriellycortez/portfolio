@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #000;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header h1 {
+    color: #dc3545;
+    font-size: 2.5rem;
+}
+
+header span {
+    color: #fff;
+}
+
+header .navegacao-principal {
+    display: flex; 
+    gap: 10px;
+    align-items: center;
+}
+
+header .navegacao-principal li a {
+    padding: 10px;
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.section-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
